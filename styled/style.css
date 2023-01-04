@@ -1,0 +1,82 @@
+* {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-weight: 400;
+    cursor: default;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteiner-principal {
+    background-color: #bebebe;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.conteiner-player {
+    background-color: #84C1FF;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-ia {
+    background-color: #8f1f2e;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-msg {
+    background-color: rgb(104, 104, 104);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteiner-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.name-tag, .scoreboard {
+   font-size: 45px;
+   color: rgb(0, 0, 0);
+   
+}
+
+img {
+    max-width: 80px;
+    margin: 5px;
+}
+
+.conteiner-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
