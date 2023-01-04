@@ -34,6 +34,10 @@ html, body {
     flex-direction: column;
 }
 
+.conteiner-player img:hover {
+    opacity: 1;
+}
+
 .conteiner-ia {
     background-color: #8f1f2e;
     width: 300px;
@@ -42,6 +46,12 @@ html, body {
     flex-direction: column;
 }
 
+.conteiner-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .conteiner-msg {
     background-color: rgb(104, 104, 104);
     width: 300px;
@@ -71,6 +81,7 @@ html, body {
 img {
     max-width: 80px;
     margin: 5px;
+    opacity: .2;
 }
 
 .conteiner-img {
@@ -79,4 +90,9 @@ img {
     align-items: center;
     justify-content: center;
 
+}
+
+.tittle {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
 }
