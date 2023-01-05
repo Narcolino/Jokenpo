@@ -2,7 +2,7 @@
     font-family: Helvetica Neue, Helvetica, Arial;
     font-weight: 400;
     cursor: default;
-    
+
 }
 
 html, body {
@@ -13,7 +13,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .conteiner-principal {
@@ -34,34 +34,12 @@ html, body {
     flex-direction: column;
 }
 
-.conteiner-player img:hover {
-    opacity: 1;
-}
-
 .conteiner-ia {
     background-color: #8f1f2e;
     width: 300px;
     height: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.conteiner-middle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.conteiner-msg {
-    background-color: rgb(104, 104, 104);
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .conteiner-info {
@@ -72,10 +50,34 @@ html, body {
     margin-left: 10px;
 }
 
+.conteiner-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-msg {
+    background-color: rgb(104, 104, 104);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteiner-player img:hover {
+    opacity: 1;
+}
+
+
 .name-tag, .scoreboard {
-   font-size: 45px;
-   color: rgb(0, 0, 0);
-   
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+
 }
 
 img {
