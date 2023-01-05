@@ -69,7 +69,7 @@ html, body {
 
 }
 
-.conteiner-player img:hover {
+.conteiner-player a:hover , .conteiner-player a.selected{
     opacity: 1;
 }
 
@@ -80,8 +80,11 @@ html, body {
 
 }
 
-img {
+img{
     max-width: 80px;
+}
+
+.conteiner-img a {
     margin: 5px;
     opacity: .2;
 }
